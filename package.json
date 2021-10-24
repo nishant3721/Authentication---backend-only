@@ -1,0 +1,20 @@
+{
+  "name": "login-signup-api-endpoints",
+  "version": "1.0.0",
+  "description": "This is created in order to login or signup a user in database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nishant Singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.10"
+  },
+  "proxy": "http://localhost:5000"
+}
